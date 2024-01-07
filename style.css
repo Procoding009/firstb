@@ -1,0 +1,190 @@
+ * {
+   Margin: 0;
+   Padding: 0;
+   Box-sizing: border-box;
+   font-family: Tahoma;
+   color: white;
+   text-transform: uppercase;
+ }
+
+ html,
+ body {
+   Width: 100%;
+   Height: 100%;
+ }
+
+ main {
+   height: 100vh;
+   width: 100%;
+   background-color: #111;
+ }
+
+ .logo {
+
+   font-size: 25px;
+   padding: 10px 20px;
+   cursor: pointer;
+   color: rgb(255, 253, 253);
+ }
+
+ .header {
+   width: 100%;
+   background-color: black;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 10px;
+   text-transform: uppercase;
+ }
+
+ .product {
+   display: flex;
+   gap: 40px;
+   font-weight: 900;
+ }
+
+ .product h1 {
+   cursor: pointer;
+
+ }
+
+ .leftside {
+   display: flex;
+   padding: 10px 40px;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .leftside h2 {
+   cursor: pointer;
+
+ }
+
+ .leftside button {
+   border: none;
+   color: black;
+   font-size: 15px;
+   padding: 5px 10px;
+   cursor: pointer;
+
+ }
+
+ .object {
+   text-align: center;
+   font-size: 4vw;
+   text-transform: uppercase;
+   margin: 30px;
+   z-index: 2;
+   position: absolute;
+   left: 20%;
+ }
+
+ .object h1:nth-child(2) {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .object h1 span {
+   background-color: rgb(126, 56, 54);
+   font-size: 30px;
+   padding: 10px 30px;
+   display: flex;
+   border-radius: 80px;
+   margin: 30px;
+   cursor: pointer;
+ }
+
+ .imgsection img {
+   width: 200px;
+   height: 300px;
+   object-fit: cover;
+   object-position: center;
+   position: absolute;
+ }
+
+ .imgsection img:nth-child(1) {
+   top: 100px;
+   left: 400px;
+   border-radius: 10px;
+ }
+
+ .imgsection img:nth-child(2) {
+   top: 260px;
+   left: 65%;
+   border-radius: 10px;
+ }
+
+ .imgsection img:nth-child(3) {
+   left: 600px;
+   border-radius: 10px;
+   top: 400px;
+ }
+
+ .down {
+   bottom: 30px;
+   position: absolute;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   display: flex;
+ }
+
+ .down h3 {
+   padding: 10px 15px;
+ }
+
+ /* end main */
+
+
+ #page1 {
+   height: 100vh;
+   width: 100%;
+   background-color: rgba(39, 39, 131, 0.577);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ #page1 .box {
+   height: 200px;
+   width: 200px;
+   background-color: rgba(145, 207, 37, 0.83);
+   position:absolute;
+
+ }
+ #page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(44, 44, 226, 0.767);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page2 .box {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(226, 90, 52, 0.906);
+  position:absolute;
+
+}
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(205, 44, 226, 0.767);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page3 .box {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(52, 226, 174, 0.92);
+  position:absolute;
+
+}
